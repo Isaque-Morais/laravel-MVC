@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ComidaController extends Controller
 {
-    public function index(Resquest $request)
+    public function index(Request $request)
     {
 
         $comidaPraSerie = [
