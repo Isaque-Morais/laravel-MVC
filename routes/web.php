@@ -19,7 +19,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::get('/series', [SeriesController::class, 'index']);
+
+Route::get('/series/create', [SeriesController::class, 'create']);
 
 Route::get('/comida', [ComidaController::class, 'index']);
