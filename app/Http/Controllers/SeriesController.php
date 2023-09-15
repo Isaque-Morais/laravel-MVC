@@ -14,14 +14,12 @@ class SeriesController extends Controller
             'Stranger Things',
         ];
 
-        $comidaPraSerie = [
-            'Pipoca',
-            'Coca',
-            'Pizza',
-        ];
-
         return view('series.index') 
-        ->with('listaSeries', $listaSeries)
-        ->with('comidaPraSerie', $comidaPraSerie);
+        ->with('listaSeries', $listaSeries);        
+    }
+
+    public function create()
+    {
+        return  view('series.create');
     }
 }
