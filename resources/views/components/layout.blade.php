@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ $title }} Conteúdo de  séries</title>
+    <title>{{ $title }} - Conteúdo de  séries</title>
+    <link rel="stylesheet" href="{{ asset('css/app.scss') }}">
 </head>
 <body>
 <h1>{{ $title }}</h1>
